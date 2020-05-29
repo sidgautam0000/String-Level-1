@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class test {
+    public static void main(String[] args){
+        Scanner sid= new Scanner(System.in);
+        String a=sid.nextLine();
+        a=a.replace("15 august", "26 january");
+        a=a.replace("independence", "republic");
+        System.out.println( a);
+    }
+}
+   

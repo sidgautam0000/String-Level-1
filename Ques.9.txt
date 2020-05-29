@@ -1,0 +1,22 @@
+
+import java.util.*;
+
+public class test {
+        public static void main(String[] args) {
+            Scanner sid = new Scanner(System.in);
+            String a=sid.next();
+            char b,c;
+            int d=(a.length()-1);
+            for(int i=0;i<a.length();i++){
+                b=a.charAt(i);
+                c=a.charAt(d);
+                if(b!=c){
+                    System.out.println(a+" is NOT PALINDROME");
+                    return;
+                }
+                d--;
+            }
+            System.out.println(a+" is Palindrome");
+    }
+}
+    

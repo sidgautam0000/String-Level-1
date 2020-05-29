@@ -1,0 +1,26 @@
+
+import java.util.*;
+
+public class test {
+    public static void main(String[] args){
+        Scanner sid= new Scanner(System.in);
+        String a=sid.nextLine();
+        if(a.toLowerCase().contains("mr.")){
+            System.out.print("Male");
+        }
+        else if(a.toLowerCase().contains("miss")){
+            System.out.println("Female");
+        }
+        else if(a.toLowerCase().contains("mrs")){
+            System.out.println("Married Female");
+        }
+        else if(a.toLowerCase().contains("kumari")){
+            System.out.println("Female");
+        }
+        else{
+            System.out.println("Cannot Determine");
+        }
+
+    }
+}
+    

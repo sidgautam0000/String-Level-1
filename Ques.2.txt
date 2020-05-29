@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class test {
+        public static void main(String[] args) {
+            Scanner sid = new Scanner(System.in);
+            String first=sid.next();
+            String middle=sid.next();
+            String last=sid.next();
+            System.out.println(first+" "+middle+" "+last+"-  "+first.charAt(0)+"."+middle.charAt(0)+"."+last.charAt(0));
+    }
+}
+    

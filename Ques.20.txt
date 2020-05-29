@@ -1,0 +1,16 @@
+
+import java.util.*;
+
+public class test {
+    public static void main(String[] args){
+        Scanner sid= new Scanner(System.in);
+        String a=new String();
+        a=sid.nextLine();
+        String[] b=a.split(" ");
+        for(int i=0;i<b.length;i++){
+            if(b[i].length()>5){
+                System.out.println(b[i]);
+            }
+        }
+    }
+}

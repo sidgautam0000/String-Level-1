@@ -1,0 +1,14 @@
+
+import java.util.*;
+
+public class test {
+        public static void main(String[] args) {
+            Scanner sid = new Scanner(System.in);
+            String a=sid.nextLine();
+            String b=sid.nextLine();
+
+           
+            System.out.println(a.contentEquals(b));
+    }
+}
+    

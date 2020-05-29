@@ -1,0 +1,33 @@
+
+import java.util.*;
+
+public class test {
+        public static void main(String[] args) {
+            Scanner sid = new Scanner(System.in);
+            String a=sid.next();
+            if(a.toUpperCase().contains("MONDAY")){
+                System.out.println("1");
+            }
+            else if(a.toUpperCase().contains("TUESDAY")){
+                System.out.print("2");
+            }
+            else if(a.toUpperCase().contains("WEDNESDAY")){
+                System.out.print("3");
+            }
+            else if(a.toUpperCase().contains("THURSDAY")){
+                System.out.print("4");
+            }
+            else if(a.toUpperCase().contains("FRIDAY")){
+                System.out.print("5");
+            }
+            else if(a.toUpperCase().contains("SATURDAY")){
+                System.out.print("6");
+            }
+            else{
+                System.out.println("7");
+            }
+            
+
+    }
+}
+    

@@ -1,0 +1,33 @@
+
+import java.util.*;
+
+public class test {
+    public static void main(String[] args){
+        Scanner sid= new Scanner(System.in);
+        String a=new String();
+        String[] b={"india","china","peru","rome","brazil","jordan","mexico"};
+        String[] c={"Taj Mahal","The Great Wall Of China","MachuPichu","Roman Colosseum","Christ the Reedemer Statue","Petra","Chichen Itza"};
+        a=sid.nextLine();
+        if(a.toLowerCase().equals(b[0])){
+            System.out.println(c[0]);
+        }
+        else if(a.toLowerCase().equals(b[1])){
+            System.out.println(c[1]);
+        }
+        else if(a.toLowerCase().equals(b[2])){
+            System.out.println(c[2]);
+        }
+        else if(a.toLowerCase().equals(b[3])){
+            System.out.println(c[3]);
+        }
+        else if(a.toLowerCase().equals(b[4])){
+            System.out.println(c[4]);
+        }
+        else if(a.toLowerCase().equals(b[5])){
+            System.out.println(c[5]);
+        }
+        else if(a.toLowerCase().equals(b[6])){
+            System.out.println(c[6]);
+        }
+    }
+}

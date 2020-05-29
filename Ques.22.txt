@@ -1,0 +1,26 @@
+
+import java.util.*;
+
+public class test {
+    public static void main(String[] args){
+        Scanner sid= new Scanner(System.in);
+        String a=new String();
+        a=sid.nextLine();
+        a=a.toLowerCase();
+        String[] b=a.split(" ");
+        char s,t;
+        for(int i=0;i<b.length;i++){
+            if(b[i].length()>=2){
+            for(int j=0;j<b[i].length()-1;j++){
+                
+                s=b[i].charAt(j);
+                t=b[i].charAt(j+1);
+                if(s==t){
+                    System.out.println(b[i]);
+                }
+            }
+        }
+        }
+        
+    }
+}
