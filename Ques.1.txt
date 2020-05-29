@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class test {
+        public static void main(String[] args) {
+            Scanner sid = new Scanner(System.in);
+            System.out.println("Enter your String");
+            String a=sid.nextLine();
+            System.out.println(a);
+
+    }
+}
+    
